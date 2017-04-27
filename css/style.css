@@ -307,7 +307,7 @@ home section
 }
 #home h3 {
   font-size: 14px;
-
+  text-shadow: .5px .5px rgba(140, 40, 40, 0.4);
 }
 #home hr {
   width: 240px;
