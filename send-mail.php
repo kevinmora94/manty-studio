@@ -4,6 +4,6 @@
 	    $email = $_POST['email'];
 	    $message = $_POST['message'];
 
-	    mail("hakucostarica@gmail.com", "Mensaje desde hakuCR:" .$email, $message);
+	    mail("mantystudiocr@gmail.com", "Mensaje desde hakuCR:" .$email, $message);
 	}
 ?>
