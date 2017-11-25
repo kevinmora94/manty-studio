@@ -55,7 +55,7 @@ jQuery(document).ready(function($){
     var data={
       name:$(".name-field").val(),
       email:$(".mail-field").val(),
-      message:$("#message").val()
+      message:$("#messageEmail").val()
     };
       $('.errMsgContact').removeClass('animated bounceIn');
       $('.errMsgContact').addClass('hide');
