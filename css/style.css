@@ -114,6 +114,9 @@ navigation section
       background: #fff;
       color: #2095f2;
 }
+.custom-navbar .nav li.active > .menuOpt:hover {
+  cursor: pointer!important;
+}
 .custom-navbar .navbar-toggle {
         border: none;
         padding-top: 10px;

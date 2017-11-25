@@ -50,6 +50,7 @@ jQuery(document).ready(function($){
 
   }
 
+  // MESSAGE
   $(function(){$(".sendMsgBtn").click(function(){
     var data={
       name:$(".name-field").val(),
@@ -132,6 +133,43 @@ $(function(){
         ],  {duration: 2000, fade: 750});
     });
   })
+
+  // MENU SCROLL
+  $('#up').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 960);
+	});
+  $('#solutions').click(function(){
+		$('body, html').animate({
+			scrollTop: $('#work').position().top
+		}, 960);
+  });
+  $('#solutions2').click(function(){
+		$('body, html').animate({
+			scrollTop: $('#work').position().top
+		}, 960);
+  });
+  $('#technologies').click(function(){
+		$('body, html').animate({
+			scrollTop: $('#tech').position().top
+		}, 960);
+  });
+  $('#helpers').click(function(){
+		$('body, html').animate({
+			scrollTop: $('#team').position().top
+		}, 960);
+  });
+  $('#message').click(function(){
+		$('body, html').animate({
+			scrollTop: $('#contact').position().top
+		}, 960);
+  });
+  $('#message2').click(function(){
+		$('body, html').animate({
+			scrollTop: $('#contact').position().top
+		}, 960);
+	});
 
 });
 
